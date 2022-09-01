@@ -1,0 +1,17 @@
+
+
+//returns the current heading based on mag values, 
+also saves the heading into the average heading
+float calcCurrentHeading(float mX, float mY, float mZ);
+
+
+//prints the avarage heading from the array
+printAveHeading()
+
+
+//returns the differance in heading between the two passed values
+left is negative and right is positive wrt the compass rose, range from -180->180
+headingDiff(h1,h2);
+
+//returns the required change in heading from the passed positions and current heading
+calcReqBearing(targetLat, targetLon, currLatitude, currLongitude, printAveHeading())
